@@ -11,6 +11,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TourP.Business.Abstract;
+using TourP.Business.Concrete;
+using TourP.DataAccess.Abstract;
+using TourP.DataAccess.Concrete.EntityFramework;
 
 namespace TourP.WebAPI
 {
@@ -28,6 +32,8 @@ namespace TourP.WebAPI
         {
 
             services.AddControllers();
+            services.AddSingleton<IAdsService, AdsManager>();
+            services.AddSingleton<IAdsDal, AdsDal>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "TourP.WebAPI", Version = "v1" });

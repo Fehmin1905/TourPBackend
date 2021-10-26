@@ -1520,9 +1520,25 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "TourP.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.11"
+        },
+        "compile": {
+          "bin/placeholder/TourP.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TourP.Core.dll": {}
+        }
+      },
       "TourP.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "TourP.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/TourP.Entities.dll": {}
         },
@@ -5798,6 +5814,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "TourP.Core/1.0.0": {
+      "type": "project",
+      "path": "../TourP.Core/TourP.Core.csproj",
+      "msbuildProject": "../TourP.Core/TourP.Core.csproj"
+    },
     "TourP.Entities/1.0.0": {
       "type": "project",
       "path": "../TourP.Entities/TourP.Entities.csproj",
@@ -5808,6 +5829,7 @@
     "net5.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.11",
+      "TourP.Core >= 1.0.0",
       "TourP.Entities >= 1.0.0"
     ]
   },
@@ -5845,6 +5867,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "D:\\TourP\\TourPSolution\\TourP.Core\\TourP.Core.csproj": {
+              "projectPath": "D:\\TourP\\TourPSolution\\TourP.Core\\TourP.Core.csproj"
+            },
             "D:\\TourP\\TourPSolution\\TourP.Entities\\TourP.Entities.csproj": {
               "projectPath": "D:\\TourP\\TourPSolution\\TourP.Entities\\TourP.Entities.csproj"
             }

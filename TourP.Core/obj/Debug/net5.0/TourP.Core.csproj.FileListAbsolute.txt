@@ -1,0 +1,12 @@
+D:\TourP\TourPSolution\TourP.Core\bin\Debug\net5.0\TourP.Core.deps.json
+D:\TourP\TourPSolution\TourP.Core\bin\Debug\net5.0\TourP.Core.dll
+D:\TourP\TourPSolution\TourP.Core\bin\Debug\net5.0\ref\TourP.Core.dll
+D:\TourP\TourPSolution\TourP.Core\bin\Debug\net5.0\TourP.Core.pdb
+D:\TourP\TourPSolution\TourP.Core\obj\Debug\net5.0\TourP.Core.csproj.AssemblyReference.cache
+D:\TourP\TourPSolution\TourP.Core\obj\Debug\net5.0\TourP.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\TourP\TourPSolution\TourP.Core\obj\Debug\net5.0\TourP.Core.AssemblyInfoInputs.cache
+D:\TourP\TourPSolution\TourP.Core\obj\Debug\net5.0\TourP.Core.AssemblyInfo.cs
+D:\TourP\TourPSolution\TourP.Core\obj\Debug\net5.0\TourP.Core.csproj.CoreCompileInputs.cache
+D:\TourP\TourPSolution\TourP.Core\obj\Debug\net5.0\TourP.Core.dll
+D:\TourP\TourPSolution\TourP.Core\obj\Debug\net5.0\ref\TourP.Core.dll
+D:\TourP\TourPSolution\TourP.Core\obj\Debug\net5.0\TourP.Core.pdb

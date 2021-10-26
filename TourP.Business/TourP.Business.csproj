@@ -5,11 +5,20 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstract\" />
-    <Folder Include="Concrete\" />
-    <Folder Include="Constants\" />
-    <Folder Include="DependencyResolvers\" />
     <Folder Include="ValidationRules\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.3.0" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TourP.Core\TourP.Core.csproj" />
+    <ProjectReference Include="..\TourP.DataAccess\TourP.DataAccess.csproj" />
+    <ProjectReference Include="..\TourP.Entities\TourP.Entities.csproj" />
   </ItemGroup>
 
 </Project>

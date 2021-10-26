@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TourP.Core.Entities;
 
 namespace TourP.Entities.Concrete
 {
-    public class Steps
+    public class Steps:IEntity
     {
         public int Id { get; set; }
         public string StepTitle { get; set; }

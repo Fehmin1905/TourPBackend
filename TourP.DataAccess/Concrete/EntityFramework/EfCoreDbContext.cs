@@ -8,7 +8,7 @@ using TourP.Entities.Concrete;
 
 namespace TourP.DataAccess.Concrete.EntityFramework
 {
-    public class EfCoreDbContext:DbContext
+    public class EfCoreDbContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -16,7 +16,12 @@ namespace TourP.DataAccess.Concrete.EntityFramework
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Ads>().
+                HasMany(p => p.Content).WithOne(a => a.Ads).HasForeignKey(a => a.AdsId);
+            modelBuilder.Entity<Ads>().
+                HasMany(p => p.Steps).WithOne(a => a.Ads).HasForeignKey(a => a.AdsId);
+            modelBuilder.Entity<Ads>().
+                HasOne(p => p.Entry).WithOne(a => a.Ads).HasForeignKey<Entry>(c => c.AdsId);
         }
 
         public DbSet<Ads> Ads { get; set; }
