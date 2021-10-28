@@ -10,5 +10,6 @@ namespace TourP.Business.Constants
     {
         internal static string AdsAdded="Elan əlavə olundu.";
         internal static string AdsDeleted;
+        internal static string ContentAdded;
     }
 }

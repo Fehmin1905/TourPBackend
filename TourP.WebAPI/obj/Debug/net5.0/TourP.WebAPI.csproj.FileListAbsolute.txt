@@ -71,3 +71,4 @@ D:\TourP\TourPSolution\TourP.WebAPI\bin\Debug\net5.0\TourP.Business.pdb
 D:\TourP\TourPSolution\TourP.WebAPI\bin\Debug\net5.0\TourP.Core.pdb
 D:\TourP\TourPSolution\TourP.WebAPI\bin\Debug\net5.0\TourP.DataAccess.pdb
 D:\TourP\TourPSolution\TourP.WebAPI\bin\Debug\net5.0\TourP.Entities.pdb
+D:\TourP\TourPSolution\TourP.WebAPI\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll

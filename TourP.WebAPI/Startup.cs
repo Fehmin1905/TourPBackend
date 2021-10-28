@@ -32,8 +32,7 @@ namespace TourP.WebAPI
         {
 
             services.AddControllers();
-            services.AddSingleton<IAdsService, AdsManager>();
-            services.AddSingleton<IAdsDal, AdsDal>();
+            
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "TourP.WebAPI", Version = "v1" });

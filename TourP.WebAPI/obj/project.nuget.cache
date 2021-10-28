@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "CXEA5NRdm76CBYrZpnOSMNaYhQjoixSBFa1cU66wiHuCOefxqAsAOozXIZMD1J8aSm1v6hqEUkLYRknHwJ/bXw==",
+  "dgSpecHash": "7dqKVbUw9HyThh4gV6+x0RBDwFbXWmk41wviDdzo8ZoARpemvbtle75K0f2ghdWpWHqx77ibiWefeiNJY61yHA==",
   "success": true,
   "projectFilePath": "D:\\TourP\\TourPSolution\\TourP.WebAPI\\TourP.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
