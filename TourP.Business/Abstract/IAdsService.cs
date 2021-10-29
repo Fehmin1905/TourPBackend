@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TourP.Core.Utilities.Results;
 using TourP.Entities.Concrete;
+using TourP.Entities.DTOs.AdsDTO;
 
 namespace TourP.Business.Abstract
 {

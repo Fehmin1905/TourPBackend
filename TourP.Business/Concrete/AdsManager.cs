@@ -8,6 +8,7 @@ using TourP.Business.Constants;
 using TourP.Core.Utilities.Results;
 using TourP.DataAccess.Abstract;
 using TourP.Entities.Concrete;
+using TourP.Entities.DTOs.AdsDTO;
 
 namespace TourP.Business.Concrete
 {

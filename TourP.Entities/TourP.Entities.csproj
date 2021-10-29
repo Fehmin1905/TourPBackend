@@ -5,7 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\" />
+    <Folder Include="DTOs\ContentDTO\" />
+    <Folder Include="DTOs\EntryDTO\" />
+    <Folder Include="DTOs\StepsDTO\" />
   </ItemGroup>
 
   <ItemGroup>
